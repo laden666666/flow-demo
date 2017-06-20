@@ -1,0 +1,17 @@
+{
+  "name": "flow-demo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/src/test.js",
+  "scripts": {
+    "init": "flow init",
+    "check": "flow check",
+    "status": "flow status",
+    "stop": "flow stop"
+  },
+  "author": "laden666666",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.48.0"
+  }
+}

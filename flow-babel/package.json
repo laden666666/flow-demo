@@ -1,0 +1,20 @@
+{
+  "name": "flow-babel",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/src/test.js",
+  "scripts": {
+    "babel": "babel --plugins syntax-flow  src/test.js -d dist --watch"
+  },
+  "author": "laden666666",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.48.0"
+  },
+  "dependencies": {}
+}
